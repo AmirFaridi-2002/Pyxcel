@@ -1,14 +1,3 @@
-"""
-    This is my Project 1 for the course of "Fundamentals of Computer and Programming" in the University.
-    The project is about finding the password of a user in a website. The website is a simple one and it has a captcha.
-    The goal is to find the password of the user by using binary search and decoding the captcha. The website gives us hint at each try.
-    If the password is greater than the correct password, the website returns 1. If the password is less than the correct password, the website returns -1. 
-        If the password is correct, the website returns 0.
-    The purpose of this project is to learn how to use the requests library in python and how to decode an image.
-"""
-
-
-
 from PIL import Image
 from io import BytesIO
 from requests.sessions import Session
@@ -57,4 +46,5 @@ find_password()
 
 
 print(610300087)
+
 print(68448274311422801972)
