@@ -1,10 +1,3 @@
-"""
-    This the project 2 of the course "Fundamentals of Computer and Programming" in the University.
-    The project is about creating a programming language name "Pyxcel" for working with tables and cells.
-    The input/output format is given in the pdf file.
-"""
-
-
 import re
 from copy import deepcopy
 
@@ -565,4 +558,5 @@ commandsList = []
 n = int(input())
 for _ in range(n):
     commandsList.append(input())
+
 CommandsFunctions(commandsList)
