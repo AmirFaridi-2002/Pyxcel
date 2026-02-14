@@ -9,7 +9,6 @@ Pyxcel is an interpreter for a custom language designed to create and manipulate
 - **Web Scraping**: Implements a web scraper using `BeautifulSoup` (bs4) to extract data from a certain website, which is then organized into tables using the Pyxcel interpreter.
 - **Server Communication**: Transfers the scraped data to a server using socket programming, where it is processed and managed on the server side.
 
-=
 
 ## Technologies Used
 
